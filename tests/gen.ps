@@ -1,0 +1,17 @@
+%!PS
+/Courier findfont 22 scalefont setfont
+%%Page: 1 1
+120 620 moveto (Chapter 1 - Hello FeatherPDF) show
+[/Count 2 /Title (Chapter 1) /Dest [1 /Fit] /OUT pdfmark
+showpage
+%%Page: 2 2
+120 500 moveto (Section 1.1 - Invert me) show
+120 400 moveto (Visit example.com for more) show
+% 超链接注释：指向 https://example.com，矩形覆盖 "example.com" 文字
+[/Rect [ 120 395 320 425 ] /Action << /S /URI /URI (https://example.com) >> /Subtype /Link /ANN pdfmark
+[/Count 0 /Title (Section 1.1) /Dest [2 /Fit] /OUT pdfmark
+showpage
+%%Page: 3 3
+200 300 moveto (Chapter 2 - Content fit) show
+[/Count 0 /Title (Chapter 2) /Dest [3 /Fit] /OUT pdfmark
+showpage
