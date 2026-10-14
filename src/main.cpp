@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     QApplication app(argc, argv);
     QApplication::setOrganizationName(QStringLiteral("featherpdf"));
     QApplication::setApplicationName(QStringLiteral("featherpdf"));
-    QApplication::setApplicationVersion(QStringLiteral("0.1.0"));
+    QApplication::setApplicationVersion(QStringLiteral("0.2.0"));
     // Wayland app_id（niri window-rule 匹配用），必须在建窗口之前设置
     QGuiApplication::setDesktopFileName(QStringLiteral("featherpdf"));
 
