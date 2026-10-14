@@ -1,12 +1,15 @@
 [Desktop Entry]
 Type=Application
 Name=FeatherPDF
-Name[zh_CN]=FeatherPDF 阅读器
+GenericName=PDF Viewer
+GenericName[zh_CN]=PDF 阅读器
 Comment=Lightweight Qt6 PDF viewer
-Comment[zh_CN]=轻量 Qt6 PDF 阅读器
+Comment[zh_CN]=极致轻量的 Qt6 PDF 阅读器
 Exec=featherpdf %f
-Icon=xpdf
+Icon=featherpdf
 Terminal=false
 MimeType=application/pdf;
+Keywords=pdf;viewer;reader;document;
+Keywords[zh_CN]=pdf;阅读器;文档;查看;
 Categories=Office;Viewer;
 StartupWMClass=featherpdf

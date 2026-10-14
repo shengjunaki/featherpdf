@@ -27,3 +27,4 @@ endif()
 
 install(TARGETS featherpdf RUNTIME DESTINATION bin)
 install(FILES featherpdf.desktop DESTINATION share/applications)
+install(FILES assets/featherpdf.svg DESTINATION share/icons/hicolor/scalable/apps)

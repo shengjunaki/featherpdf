@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- 圆角底板：Catppuccin base -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#1e1e2e"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="#45475a" stroke-width="2"/>
+  <!-- 页面：上半亮（正常）下半暗（反色） -->
+  <path d="M20 12 h20 l8 8 v32 a2 2 0 0 1 -2 2 H20 a2 2 0 0 1 -2 -2 V14 a2 2 0 0 1 2 -2 z" fill="#f2f2f2"/>
+  <path d="M20 34 h28 v20 a2 2 0 0 1 -2 2 H20 a2 2 0 0 1 -2 -2 z" fill="#11111b"/>
+  <path d="M40 12 v8 h8" fill="#cdd6f4"/>
+  <!-- 文字行：上半深色墨 -->
+  <rect x="24" y="22" width="16" height="2.5" rx="1.25" fill="#1e1e2e"/>
+  <rect x="24" y="27" width="12" height="2.5" rx="1.25" fill="#1e1e2e"/>
+  <!-- 文字行：下半浅色墨（反色） -->
+  <rect x="24" y="39" width="16" height="2.5" rx="1.25" fill="#cdd6f4"/>
+  <rect x="24" y="44" width="12" height="2.5" rx="1.25" fill="#cdd6f4"/>
+</svg>
